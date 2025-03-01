@@ -5,6 +5,7 @@ import './App.css'
 import Contact from './Contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ToDo from './ToDo'
+import StudentScore from './StudentScore'
 function App() {
 
  
@@ -15,6 +16,7 @@ function App() {
     <div className='d-flex justify-content-center align-items-center w-100' style={{height: "100vh"}}>
       {/* <Contact/> */}
       <ToDo/>
+      <StudentScore></StudentScore>
     </div>
   )
 }
